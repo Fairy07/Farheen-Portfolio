@@ -1,17 +1,17 @@
 
 import React from "react";
 import vpn from '../assets/vpn.png'
-import copeople from '../assets/copeople.png'
+import hp from '../assets/hp.png'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            {title=='Snap Shot' && <a href="#">
+            {/* {title=='Snap Shot' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
-            </a>}
-            {title=='Co People' && <a href="#">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
+            </a>} */}
+            {title=='HP Inc' && <a href="#">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={hp} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
                 <a href="#">
@@ -60,19 +60,19 @@ const Projects = () => {
 
 export const project = [
     {
-        title:'Co People',
-        description:'Co People is a dynamic web application I crafted using React, Node JS and React. This project is a modern and engaging social platform that allows users to connect, share content and interact seamlessly.',
-        image: {vpn},
-        git:'https://github.com/nithingooud/CoPeople',
-        technologies:['MongoDb' ,'ReactJS' , 'NodeJS']
-    },
-    {
-        title:'Snap Shot',
-        description:'SnapShot is a stunning portfolio that I exclusively designed using React JS and tailwind CSS.This Project serves as a representation of a photographer’s work, highlighting their portfolio and services.',
-        image: {copeople},
-        git:"https://github.com/nithingooud/vpn_studios",
-        technologies:[ 'React JS', 'tailwind CSS']
+        title:'HP Inc',
+        description:'Developed and maintained scalable web applications using Angular, NgRx, and RxJS, integrated RESTful APIs and WebSocket services, designed UI/UX strategies, built responsive designs, and optimized performance, with experience in MongoDB Atlas, JavaBeans, Protractor automation, and version control tools like GIT, JIRA, TFS, and ALM.',
+        image: {hp},
+        git:'',
+        technologies:['MongoDb' ,'Angular' , 'NodeJS']
     }
+    // {
+    //     title:'Snap Shot',
+    //     description:'SnapShot is a stunning portfolio that I exclusively designed using React JS and tailwind CSS.This Project serves as a representation of a photographer’s work, highlighting their portfolio and services.',
+    //     image: {vpn},
+    //     git:"https://github.com/farheengooud/vpn_studios",
+    //     technologies:[ 'React JS', 'tailwind CSS']
+    // }
 ]
 
 export default Projects

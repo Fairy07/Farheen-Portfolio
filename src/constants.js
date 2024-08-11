@@ -9,38 +9,29 @@ export const services = [
         icon: 'https://csgeeek.github.io/web.png',
     },
     {
-        title: "Photographer",
+        title: "Innovation Driven",
         icon: 'https://csgeeek.github.io/web.png',
     },
 ];
 
-export const name = 'Nithin';
+export const name = 'Farheen';
 
 export const experiences = [
     {
-        'company': 'Inncircles Technologies',
-        'role': 'Product Developer',
-        'duration': 'April 2023 - Present',
-        'logo': 'https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/e5gz1yggdy8sc1umna3e',
+        'company': 'Deloitte USI',
+        'role': 'Front-End Lead/Developer',
+        'duration': 'Octber 2018 - Present',
+        'logo': 'https://upload.wikimedia.org/wikipedia/commons/1/15/Deloitte_Logo.png',
         'points': [
             'Involved in dynamic contributions to web and mobile📱 development projects, actively influencing and improving project outcomes.',
             'Developed multiple shared components to simplify tasks for fellow developers, boosting efficiency and teamwork.',
             'Enhanced product performance through significant contributions to backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security for the company’s product to provide role-based access control ⚙️.'
+            'Worked on automating Incident Assignment for spike details using Protractor that saves manual effort.',
+            'Utilized NgRx for state management, including actions, reducers, effects, and selectors, to maintain a predictable state of the application.',
+            'Responsible for creating efficient design and developing User Interaction screens using HTML, CSS3, Bootstrap, JavaScript, jQuery, etc.'
         ],
-        'url': 'https://inncircles.com/#home',
-    },
-    {
-        'company': 'AT & T',
-        'role': 'Technical Intern',
-        'duration': 'Jan 2023 - March 2023',
-        'logo': 'https://www.att.com/ecms/dam/att/consumer/global/logos/att_globe_500x500.jpg',
-        'points': [
-            'Gained experience with Git version control contributing to the development and maintenance of code repositories.',
-            'Worked on the application dashboard, making it more user-friendly and improving its overall functionality📱.'
-        ],
-        'url': 'https://www.att.com/',
-    },
+        'url': 'https://www2.deloitte.com/ui/en.html',
+    }
 ]
 
 

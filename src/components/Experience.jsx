@@ -3,6 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import { experiences } from '../constants';
 import Footer from './Footer';
+import dlogo from '../assets/dlogo.png'
 
 
 const Experience = () => {
