@@ -9,7 +9,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
             {/* {title=='Snap Shot' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
             </a>} */}
-            {title=='HP Inc' && <a href="#">
+            {title==='HP Inc' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={hp} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
