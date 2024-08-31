@@ -1,6 +1,5 @@
 
 import React from "react";
-import vpn from '../assets/vpn.png'
 import hp from '../assets/hp.png'
 import Footer from './Footer'
 
