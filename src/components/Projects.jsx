@@ -1,4 +1,3 @@
-
 import React from "react";
 import hp from '../assets/hp.png'
 import Footer from './Footer'
@@ -6,13 +5,15 @@ import Footer from './Footer'
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            {title==='HP Inc' && <a href="#">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={hp} alt="" />
-            </a>}
+            {title==='HP Inc' && 
+                <button className="w-full rounded-t-lg h-auto object-cover" onClick={() => console.log('Button clicked!')}>
+                    <img src={hp} alt="" />
+                </button>
+            }
             <div className="p-4 sm:p-6">
-                <a href="#">
-                    <h5 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-pink-500">{title}</h5>
-                </a>
+                <button className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-pink-500" onClick={() => console.log('Button clicked!')}>
+                    {title}
+                </button>
                 <p className="font-normal text-sm sm:text-base md:text-lg text-gray-300 dark:text-gray-400">{description}</p>
             </div>
             <div className='m-2 sm:m-4 lg:m-6 flex justify-between'>
@@ -31,7 +32,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
         </div>
     );
 };
-  
+
 const Projects = () => {
     return (
         <div className="bg-black">
@@ -53,15 +54,14 @@ const Projects = () => {
     );
 }
 
-
 export const project = [
     {
         title:'HP Inc',
         description:'Developed and maintained scalable web applications using Angular, NgRx, and RxJS, integrated RESTful APIs and WebSocket services, designed UI/UX strategies, built responsive designs, and optimized performance, with experience in MongoDB Atlas, JavaBeans, Protractor automation, and version control tools like GIT, JIRA, TFS, and ALM.',
-        image: {hp},
+        image: hp,
         git:'',
         technologies:['MongoDb' ,'Angular' , 'NodeJS']
     }
 ]
 
-export default Projects
+export default Projects;
