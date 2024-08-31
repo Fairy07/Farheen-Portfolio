@@ -32,7 +32,7 @@ const About = () => {
         <div className='flex flex-col justify-around'>
           <div className='sm:px-16 px-2'>
             <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Introduction</h2>
-            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hey there! I'm Farheen Bahar, a seasoned Full Stack Developer with a dynamic 6-year journey in the world of web development. As a <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/farheenbahar/' target='_blank'>Software developer</a> I specialize in both MEAN and MERN stacks🚀.
+            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hey there! I'm Farheen Bahar, a seasoned Full Stack Developer with a dynamic 6-year journey in the world of web development. As a <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/farheenbahar/' target='_blank' rel='noreferrer'>Software developer</a> I specialize in both MEAN and MERN stacks🚀.
               <br />
               ✍️ My passion lies in creating captivating and seamless digital experiences, and I specialize in Angular, React, web development, and Node.js.
               <br />
